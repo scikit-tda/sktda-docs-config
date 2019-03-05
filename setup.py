@@ -17,6 +17,7 @@ setup(name='sktda-docs-config',
       packages=['sktda_docs_config'],
       include_package_data=True,
       install_requires=[
+        'sphinx',
         'ipython',
         'nbsphinx',
         'sphinxcontrib-fulltoc'
