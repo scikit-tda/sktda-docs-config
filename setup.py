@@ -6,7 +6,7 @@ with open('README.md') as f:
 
 
 setup(name='sktda-docs-config',
-      version='0.0.5',
+      version='0.0.6',
       description='Custom configuration for the Scikit-TDA documentation',
       long_description=long_description,
       long_description_content_type="text/markdown",	
