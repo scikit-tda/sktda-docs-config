@@ -3,3 +3,4 @@ sktda_docs_config.egg-info/
 venv
 build
 dist
+.DS_Store

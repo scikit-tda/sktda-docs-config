@@ -35,7 +35,8 @@ html_theme = 'better'
 html_sidebars = {
     '**': [
         'searchbox.html',
-        'localtoc.html'
+        'githubbox.html',
+        'globaltoc.html'
     ],
 }
 
@@ -51,7 +52,7 @@ html_theme_options = {
   # CSS files to include after all other CSS files
   # (refer to by relative path from conf.py directory, or link to a
   # remote file)
-  'cssfiles': ['_static/custom_style.css'],  # default is empty list
+#   'cssfiles': ['_static/custom_style.css'],  # default is empty list
 
   # show a big text header with the value of html_title
   'showheader': True,
@@ -63,7 +64,7 @@ html_theme_options = {
   'showrelbarbottom': True,
 
   # show the self-serving link in the footer
-  'linktotheme': True,
+#   'linktotheme': True,
 
   # width of the sidebar. page width is determined by a CSS rule.
   # I prefer to define things in rem because it scales with the
