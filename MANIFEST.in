@@ -1,6 +1,5 @@
-include better/*.html
-include better/static/*.css_t
-include better/*.conf
+recursive-include sktda_docs_config/better *
+recursive-include sktda_docs_config/better/static *
 include *.py
 include *.txt
 include *.rst
