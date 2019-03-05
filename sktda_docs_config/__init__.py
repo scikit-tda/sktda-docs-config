@@ -34,8 +34,8 @@ html_theme_path = [better_theme_path]
 html_theme = 'better'
 html_sidebars = {
     '**': [
-        'localtoc.html', 
-        'searchbox.html'
+        'searchbox.html',
+        'localtoc.html'
     ],
 }
 
