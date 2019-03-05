@@ -1,25 +1,30 @@
 # sktda-docs-config
 Settings common across all scikit-tda doc sites
 
-*first* make sure your pip version is `>=18.1`:
-```
-pip install --upgrade pip
-```
-
 (soon) Install with 
 
 ```
 pip install sktda_docs_config
 ```
 
-or from source
-
-```
-pip install git+https://github.com/scikit-tda/sktda-docs-config
-```
-
-In the docs `conf.py` file, add the line 
+and then add the following line to your docs' `conf.py` file:
 
 ```
 from sktda_docs_config import *
+```
+
+You might also want to add the parameter to the `setup` function in your `setup.py`:
+
+```
+extras_require={
+    'docs': [ # `pip install -e ".[docs]"`
+        'sktda_docs_config'
+    ]
+},
+```
+
+this will make it so all required docs are installable with
+
+```
+pip install -e ".[docs]"    
 ```
