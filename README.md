@@ -1,6 +1,11 @@
 # sktda-docs-config
 Settings common across all scikit-tda doc sites
 
+*first* make sure your pip version is `>=18.1`:
+```
+pip install --upgrade pip
+```
+
 (soon) Install with 
 
 ```

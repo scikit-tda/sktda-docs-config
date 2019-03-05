@@ -1,4 +1,4 @@
-from better import better_theme_path
+from .better import better_theme_path
 
 extensions = [
     'sphinx.ext.autodoc',
